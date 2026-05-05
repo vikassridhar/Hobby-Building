@@ -1,0 +1,278 @@
+{
+  "properties": [
+    {
+      "id": "bkk-mo",
+      "name": "Mandarin Oriental, Bangkok",
+      "location": "Bangkok",
+      "rating": 4.8,
+      "reviewsCount": 2450,
+      "pricePerNight": 650,
+      "images": [
+        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1582719478250-c89b1452d9a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      ],
+      "amenities": ["Riverside Pool", "Luxury Spa", "Butler Service", "Fine Dining", "Fitness Center", "Free WiFi"],
+      "description": "A legendary historic hotel offering unparalleled service and breathtaking views of the Chao Phraya River. Renowned for its timeless elegance and world-class hospitality.",
+      "reviews": [
+        {"id": "rev1", "author": "James W.", "rating": "5.0", "comment": "The gold standard of service. Unforgettable stay.", "date": "2024-03-01"},
+        {"id": "rev2", "author": "Sophie L.", "rating": "4.5", "comment": "Beautiful riverside location and amazing breakfast.", "date": "2024-02-15"}
+      ],
+      "rooms": [
+        {"id": "r1", "name": "Deluxe River View", "price": 650, "capacity": 2, "beds": "1 King Bed"},
+        {"id": "r2", "name": "State Room", "price": 850, "capacity": 2, "beds": "1 King Bed"},
+        {"id": "r3", "name": "Authors' Suite", "price": 1500, "capacity": 2, "beds": "1 King Bed"}
+      ],
+      "stars": 5,
+      "propertyType": "Hotel",
+      "distanceFromCenter": 3.2,
+      "freeCancellation": true,
+      "breakfastIncluded": true,
+      "popularityScore": 98
+    },
+    {
+      "id": "bkk-siam",
+      "name": "The Siam Hotel",
+      "location": "Bangkok",
+      "rating": 4.9,
+      "reviewsCount": 850,
+      "pricePerNight": 550,
+      "images": [
+        "https://images.unsplash.com/photo-1590073242678-70ee3fc28e8e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      ],
+      "amenities": ["Infinity Pool", "Traditional Tattoo Studio", "Private Pier", "Opium Spa", "Antique Collection"],
+      "description": "An exquisite art-deco boutique hotel featuring curated antiques and lush gardens. A secluded sanctuary in the Dusit district.",
+      "reviews": [
+        {"id": "rev3", "author": "Alexander M.", "rating": "5.0", "comment": "A true work of art. The most unique hotel in Bangkok.", "date": "2024-03-05"}
+      ],
+      "rooms": [
+        {"id": "r1", "name": "Siam Suite", "price": 550, "capacity": 2, "beds": "1 King Bed"},
+        {"id": "r2", "name": "Riverview Suite", "price": 700, "capacity": 2, "beds": "1 King Bed"}
+      ],
+      "stars": 5,
+      "propertyType": "Boutique Hotel",
+      "distanceFromCenter": 5.5,
+      "freeCancellation": true,
+      "breakfastIncluded": true,
+      "popularityScore": 92
+    },
+    {
+      "id": "bkk-cap",
+      "name": "Capella Bangkok",
+      "location": "Bangkok",
+      "rating": 4.8,
+      "reviewsCount": 520,
+      "pricePerNight": 750,
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      ],
+      "amenities": ["Michelin Dining", "Wellness Spa", "Private Villas", "River Panorama", "Personal Host"],
+      "description": "Ultra-luxury residential-style hotel where every room offers panoramic views of the Chao Phraya River. Home to Côte by Mauro Colagreco.",
+      "reviews": [
+        {"id": "rev4", "author": "Elena G.", "rating": "4.9", "comment": "Flawless design and incredible food.", "date": "2024-02-28"}
+      ],
+      "rooms": [
+        {"id": "r1", "name": "Riverfront Room", "price": 750, "capacity": 2, "beds": "1 King Bed"},
+        {"id": "r2", "name": "Verandah Suite", "price": 1200, "capacity": 2, "beds": "1 King Bed"}
+      ],
+      "stars": 5,
+      "propertyType": "Hotel",
+      "distanceFromCenter": 3.5,
+      "freeCancellation": true,
+      "breakfastIncluded": true,
+      "popularityScore": 95
+    },
+    {
+      "id": "bkk-fs",
+      "name": "Four Seasons Hotel Bangkok",
+      "location": "Bangkok",
+      "rating": 4.7,
+      "reviewsCount": 1100,
+      "pricePerNight": 600,
+      "images": [
+        "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      ],
+      "amenities": ["Art Gallery", "Multi-level Pools", "Award-winning Bar", "Urban Resort", "Wellness Centre"],
+      "description": "A contemporary urban resort with cascading architecture and vibrant social spaces, perfectly positioned along the river.",
+      "reviews": [
+        {"id": "rev5", "author": "Marcus V.", "rating": "4.8", "comment": "The pool area is paradise. Best social scene in town.", "date": "2024-03-10"}
+      ],
+      "rooms": [
+        {"id": "r1", "name": "Deluxe Guest Room", "price": 600, "capacity": 2, "beds": "1 King Bed"},
+        {"id": "r2", "name": "Premier Riverview", "price": 750, "capacity": 2, "beds": "1 King Bed"}
+      ],
+      "stars": 5,
+      "propertyType": "Resort",
+      "distanceFromCenter": 3.8,
+      "freeCancellation": true,
+      "breakfastIncluded": true,
+      "popularityScore": 96
+    },
+    {
+      "id": "bkk-ph",
+      "name": "Park Hyatt Bangkok",
+      "location": "Bangkok",
+      "rating": 4.6,
+      "reviewsCount": 1400,
+      "pricePerNight": 400,
+      "images": [
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      ],
+      "amenities": ["Infinity Pool", "Sky Bar", "Mall Access", "Luxury Grill", "Spa", "Central Location"],
+      "description": "Sleek, modern sanctuary located atop the Central Embassy luxury mall in the heart of Bangkok's commercial district.",
+      "reviews": [
+        {"id": "rev6", "author": "Chloe H.", "rating": "4.6", "comment": "Amazing views and direct access to the best shopping.", "date": "2024-02-20"}
+      ],
+      "rooms": [
+        {"id": "r1", "name": "King Bed", "price": 400, "capacity": 2, "beds": "1 King Bed"},
+        {"id": "r2", "name": "Corner Suite", "price": 600, "capacity": 2, "beds": "1 King Bed"}
+      ],
+      "stars": 5,
+      "propertyType": "Hotel",
+      "distanceFromCenter": 0.5,
+      "freeCancellation": true,
+      "breakfastIncluded": true,
+      "popularityScore": 89
+    },
+    {
+      "id": "bali-fs-sayan",
+      "name": "Four Seasons Resort Bali at Sayan",
+      "location": "Bali",
+      "rating": 4.8,
+      "reviewsCount": 1200,
+      "pricePerNight": 850,
+      "images": [
+        "https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      ],
+      "amenities": ["Sacred River Spa", "Riverside Pool", "Meditation", "Organic Farm", "Yoga Pavilion"],
+      "description": "An architectural masterpiece set in a rice-bowl shaped valley hidden in the jungle of Ubud. A place of deep spiritual connection.",
+      "reviews": [
+        {"id": "rev7", "author": "David B.", "rating": "5.0", "comment": "The most beautiful resort entrance in the world.", "date": "2024-03-12"}
+      ],
+      "rooms": [
+        {"id": "r1", "name": "One-Bedroom Duplex", "price": 850, "capacity": 2, "beds": "1 King Bed"},
+        {"id": "r2", "name": "Riverfront Villa", "price": 1400, "capacity": 2, "beds": "1 King Bed"}
+      ],
+      "stars": 5,
+      "propertyType": "Resort",
+      "distanceFromCenter": 4.5,
+      "freeCancellation": true,
+      "breakfastIncluded": true,
+      "popularityScore": 97
+    },
+    {
+      "id": "bali-aman",
+      "name": "Amankila",
+      "location": "Bali",
+      "rating": 4.9,
+      "reviewsCount": 450,
+      "pricePerNight": 1100,
+      "images": [
+        "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1439066615861-d1af74d74000?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      ],
+      "amenities": ["Three-tier Pool", "Beach Club", "Private Cruises", "Secluded Location", "Personalized Service"],
+      "description": "A secluded cliffside retreat featuring an iconic three-tier infinity pool overlooking the Lombok Strait in East Bali.",
+      "reviews": [
+        {"id": "rev8", "author": "Isabella S.", "rating": "5.0", "comment": "Aman perfection. Total peace and privacy.", "date": "2024-02-25"}
+      ],
+      "rooms": [
+        {"id": "r1", "name": "Garden Suite", "price": 1100, "capacity": 2, "beds": "1 King Bed"},
+        {"id": "r2", "name": "Ocean Suite", "price": 1500, "capacity": 2, "beds": "1 King Bed"}
+      ],
+      "stars": 5,
+      "propertyType": "Resort",
+      "distanceFromCenter": 45.0,
+      "freeCancellation": true,
+      "breakfastIncluded": true,
+      "popularityScore": 94
+    },
+    {
+      "id": "bali-bulgari",
+      "name": "Bulgari Resort Bali",
+      "location": "Bali",
+      "rating": 4.7,
+      "reviewsCount": 680,
+      "pricePerNight": 1200,
+      "images": [
+        "https://images.unsplash.com/photo-1571896349842-3378af451914?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      ],
+      "amenities": ["Private Beach", "Luxury Boutique", "Cliffside Bar", "Ocean-view Villa", "Italian Design"],
+      "description": "A blend of contemporary Italian style and traditional Balinese design perched on a 150m cliff in Uluwatu.",
+      "reviews": [
+        {"id": "rev9", "author": "Luca F.", "rating": "4.8", "comment": "Incredible cliff views and the beach club is stunning.", "date": "2024-03-01"}
+      ],
+      "rooms": [
+        {"id": "r1", "name": "Ocean View Villa", "price": 1200, "capacity": 2, "beds": "1 King Bed"},
+        {"id": "r2", "name": "Bulgari Villa", "price": 3500, "capacity": 6, "beds": "3 King Beds"}
+      ],
+      "stars": 5,
+      "propertyType": "Resort",
+      "distanceFromCenter": 25.0,
+      "freeCancellation": true,
+      "breakfastIncluded": true,
+      "popularityScore": 93
+    },
+    {
+      "id": "bali-alila",
+      "name": "Alila Villas Uluwatu",
+      "location": "Bali",
+      "rating": 4.7,
+      "reviewsCount": 920,
+      "pricePerNight": 950,
+      "images": [
+        "https://images.unsplash.com/photo-1540518614846-7eded433c457?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      ],
+      "amenities": ["Sunset Cabana", "Infinity Pool", "Holistic Spa", "Eco-friendly", "Modern Architecture"],
+      "description": "Eco-luxury villas with dramatic sunset views and minimalist white-stone architecture. Featuring the iconic overhanging sunset cabana.",
+      "reviews": [
+        {"id": "rev10", "author": "Ryan P.", "rating": "4.7", "comment": "Minimalist luxury at its best. The sunset view is unmatched.", "date": "2024-02-18"}
+      ],
+      "rooms": [
+        {"id": "r1", "name": "One Bedroom Pool Villa", "price": 950, "capacity": 2, "beds": "1 King Bed"},
+        {"id": "r2", "name": "Three Bedroom Villa", "price": 2800, "capacity": 6, "beds": "3 King Beds"}
+      ],
+      "stars": 5,
+      "propertyType": "Resort",
+      "distanceFromCenter": 22.0,
+      "freeCancellation": true,
+      "breakfastIncluded": true,
+      "popularityScore": 91
+    },
+    {
+      "id": "bali-como",
+      "name": "COMO Shambhala Estate",
+      "location": "Bali",
+      "rating": 4.8,
+      "reviewsCount": 380,
+      "pricePerNight": 700,
+      "images": [
+        "https://images.unsplash.com/photo-1596436889106-bf35e843f974?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1562790351-d273a8a31829?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      ],
+      "amenities": ["Spring Pools", "Ayurvedic Spa", "Jungle Gym", "Nutritional Plans", "Nature Immersion"],
+      "description": "A 'residential health retreat' focused on total wellness and immersion in nature, set amidst the lush jungle near Ubud.",
+      "reviews": [
+        {"id": "rev11", "author": "Sarah G.", "rating": "4.9", "comment": "A true healing experience. The food and setting are magical.", "date": "2024-03-08"}
+      ],
+      "rooms": [
+        {"id": "r1", "name": "Garden Room", "price": 700, "capacity": 2, "beds": "1 King Bed"},
+        {"id": "r2", "name": "Terrace Suite", "price": 950, "capacity": 2, "beds": "1 King Bed"}
+      ],
+      "stars": 5,
+      "propertyType": "Wellness Resort",
+      "distanceFromCenter": 8.0,
+      "freeCancellation": true,
+      "breakfastIncluded": true,
+      "popularityScore": 90
+    }
+  ]
+}

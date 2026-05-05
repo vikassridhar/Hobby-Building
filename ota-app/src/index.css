@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ocean-50: #eef7ff;
+  --color-ocean-100: #d9ecff;
+  --color-ocean-200: #bcddff;
+  --color-ocean-300: #8ec8ff;
+  --color-ocean-400: #59a8ff;
+  --color-ocean-500: #3385ff;
+  --color-ocean-600: #1a64f5;
+  --color-ocean-700: #134fe1;
+  --color-ocean-800: #1640b6;
+  --color-ocean-900: #183a8f;
+  --color-ocean-950: #132557;
+
+  --color-coral-50: #fff1f0;
+  --color-coral-100: #ffe0dd;
+  --color-coral-200: #ffc7c1;
+  --color-coral-300: #ff9e94;
+  --color-coral-400: #ff6b5b;
+  --color-coral-500: #ff402e;
+  --color-coral-600: #ef1e0a;
+  --color-coral-700: #c81207;
+  --color-coral-800: #a4130c;
+  --color-coral-900: #891510;
+  --color-coral-950: #4c0604;
+
+  --color-sand-50: #fdf8f0;
+  --color-sand-100: #f9edd8;
+  --color-sand-200: #f3dab0;
+  --color-sand-300: #ebc07e;
+  --color-sand-400: #e2a04e;
+  --color-sand-500: #db8832;
+  --color-sand-600: #cd6e25;
+  --color-sand-700: #ab5421;
+  --color-sand-800: #8a4322;
+  --color-sand-900: #713820;
+  --color-sand-950: #3e1b0e;
+
+  --color-teal-50: #effef7;
+  --color-teal-100: #d9ffee;
+  --color-teal-200: #b6fddd;
+  --color-teal-300: #7cf7c3;
+  --color-teal-400: #37eba1;
+  --color-teal-500: #11d487;
+  --color-teal-600: #07b06d;
+  --color-teal-700: #0a8b59;
+  --color-teal-800: #0d6d48;
+  --color-teal-900: #0f593d;
+  --color-teal-950: #013220;
+}
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.4s ease-out;
+  }
+  .animate-slide-up {
+    animation: slideUp 0.4s ease-out;
+  }
+  .animate-slide-down {
+    animation: slideDown 0.3s ease-out;
+  }
+  .animate-scale-in {
+    animation: scaleIn 0.3s ease-out;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}

@@ -1,0 +1,9 @@
+{
+  "skills": {
+    "securevault": {
+      "enabled": true,
+      "endpoint": "http://localhost:8443",
+      "agentToken": "${SECUREVAULT_AGENT_TOKEN}"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+services:
+  securevault:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      platforms:
+        - linux/arm64
+    image: securevault:latest
+    container_name: securevault
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8443}:8443"
+    volumes:
+      - vault-data:/app/data
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=production
+      - VAULT_DB_PATH=/app/data/vault.db
+      - AUDIT_LOG_PATH=/app/data/audit.log
+      - GATEWAY_HOST=0.0.0.0
+      - GATEWAY_PORT=8443
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://localhost:8443/health').then(r => { process.exit(r.ok ? 0 : 1) }).catch(() => process.exit(1))"]
+      interval: 30s
+      timeout: 5s
+      start_period: 15s
+      retries: 3
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+        reservations:
+          memory: 128M
+    # ARM64 platform (change to linux/amd64 for x86_64)
+    platform: linux/arm64
+    # Security options
+    security_opt:
+      - no-new-privileges:true
+    read_only: false
+    tmpfs:
+      - /tmp:noexec,nosuid,size=50m
+
+volumes:
+  vault-data:
+    driver: local

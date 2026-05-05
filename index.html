@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hobby Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎯 Hobby Tracker</h1>
+    <p class="subtitle">Track what you love doing and how much time you invest in it.</p>
+  </header>
+
+  <main>
+    <!-- Add Hobby -->
+    <section class="card" id="add-hobby-section">
+      <h2>Add a New Hobby</h2>
+      <form id="add-hobby-form">
+        <div class="form-row">
+          <input
+            type="text"
+            id="hobby-name"
+            placeholder="e.g. Painting, Guitar, Running…"
+            maxlength="50"
+            required
+          />
+          <input
+            type="color"
+            id="hobby-color"
+            title="Pick a colour for this hobby"
+            value="#6366f1"
+          />
+          <button type="submit">Add Hobby</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- Hobbies List -->
+    <section class="card" id="hobbies-section">
+      <h2>My Hobbies</h2>
+      <div id="hobbies-list" class="hobbies-list">
+        <p class="empty-msg" id="no-hobbies-msg">No hobbies yet — add one above!</p>
+      </div>
+    </section>
+
+    <!-- Log Session -->
+    <section class="card" id="log-section">
+      <h2>Log a Session</h2>
+      <form id="log-form">
+        <div class="form-row">
+          <select id="log-hobby" required>
+            <option value="" disabled selected>Select hobby</option>
+          </select>
+          <input
+            type="number"
+            id="log-minutes"
+            placeholder="Minutes"
+            min="1"
+            max="1440"
+            required
+          />
+          <input
+            type="date"
+            id="log-date"
+            required
+          />
+          <button type="submit">Log Session</button>
+        </div>
+        <div class="form-row">
+          <input
+            type="text"
+            id="log-note"
+            placeholder="Optional note (e.g. practiced scales, 5 km trail)"
+            maxlength="100"
+          />
+        </div>
+      </form>
+    </section>
+
+    <!-- Stats -->
+    <section class="card" id="stats-section">
+      <h2>Stats</h2>
+      <div id="stats-grid" class="stats-grid">
+        <p class="empty-msg" id="no-stats-msg">Log a session to see stats!</p>
+      </div>
+    </section>
+
+    <!-- Recent Sessions -->
+    <section class="card" id="sessions-section">
+      <h2>Recent Sessions</h2>
+      <div id="sessions-list" class="sessions-list">
+        <p class="empty-msg" id="no-sessions-msg">No sessions logged yet.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast notification -->
+  <div id="toast" class="toast" aria-live="polite"></div>
+
+  <footer>
+    <p>Data saved locally in your browser · <a href="https://github.com/vikassridhar/Hobby-Building" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "bkk-1",
+    "name": "The Siam Hotel",
+    "location": "Bangkok, Thailand",
+    "rating": 4.9,
+    "stars": 5,
+    "propertyType": "Luxury Hotel",
+    "distanceFromCenter": "3.2 km",
+    "freeCancellation": true,
+    "breakfastIncluded": true,
+    "popularityScore": 98,
+    "reviewsCount": 1245,
+    "pricePerNight": 450,
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Pool", "Spa", "Fitness Center", "Free WiFi", "Restaurant", "Bar", "Concierge"],
+    "description": "An iconic luxury hotel nestled along the Chao Phraya River, offering timeless elegance and world-class service.",
+    "reviews": [
+      { "id": "rev-1", "author": "James Wilson", "rating": "5", "comment": "Absolutely stunning property with impeccable service.", "date": "2023-11-15" },
+      { "id": "rev-2", "author": "Sarah Chen", "rating": "5", "comment": "The best hotel experience in Bangkok. Highly recommend!", "date": "2023-10-22" }
+    ],
+    "rooms": [
+      { "id": "bkk-1-r1", "name": "Deluxe River View Room", "price": 450, "capacity": 2, "beds": "1 King" },
+      { "id": "bkk-1-r2", "name": "Grand Suite", "price": 850, "capacity": 4, "beds": "2 Kings" }
+    ]
+  },
+  {
+    "id": "bkk-2",
+    "name": "Mandarin Oriental Bangkok",
+    "location": "Bangkok, Thailand",
+    "rating": 4.8,
+    "stars": 5,
+    "propertyType": "Luxury Hotel",
+    "distanceFromCenter": "1.5 km",
+    "freeCancellation": true,
+    "breakfastIncluded": false,
+    "popularityScore": 95,
+    "reviewsCount": 2100,
+    "pricePerNight": 520,
+    "images": [
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Pool", "Spa", "Fitness Center", "Free WiFi", "Fine Dining", "Butler Service"],
+    "description": "A legendary riverside retreat blending colonial charm with modern luxury and unparalleled hospitality.",
+    "reviews": [
+      { "id": "rev-3", "author": "Michael Brown", "rating": "5", "comment": "Classic luxury at its finest. The staff is extraordinary.", "date": "2023-12-01" },
+      { "id": "rev-4", "author": "Emily Davis", "rating": "4", "comment": "Beautiful rooms and amazing location. Worth every penny.", "date": "2023-11-10" }
+    ],
+    "rooms": [
+      { "id": "bkk-2-r1", "name": "Superior Room", "price": 520, "capacity": 2, "beds": "1 King" },
+      { "id": "bkk-2-r2", "name": "Oriental Suite", "price": 980, "capacity": 3, "beds": "1 King + Sofa Bed" }
+    ]
+  },
+  {
+    "id": "bkk-3",
+    "name": "Park Hyatt Bangkok",
+    "location": "Bangkok, Thailand",
+    "rating": 4.7,
+    "stars": 5,
+    "propertyType": "Luxury Hotel",
+    "distanceFromCenter": "0.8 km",
+    "freeCancellation": true,
+    "breakfastIncluded": true,
+    "popularityScore": 92,
+    "reviewsCount": 890,
+    "pricePerNight": 380,
+    "images": [
+      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Infinity Pool", "Spa", "Fitness Center", "Free WiFi", "Rooftop Bar", "Business Center"],
+    "description": "Perched atop the ICONSIAM complex, offering breathtaking city views and contemporary Thai-inspired design.",
+    "reviews": [
+      { "id": "rev-5", "author": "David Lee", "rating": "5", "comment": "Incredible views and modern luxury. Perfect for business and leisure.", "date": "2023-09-15" },
+      { "id": "rev-6", "author": "Anna Kim", "rating": "5", "comment": "The rooftop pool is a highlight. Service was top-notch.", "date": "2023-10-05" }
+    ],
+    "rooms": [
+      { "id": "bkk-3-r1", "name": "Park Deluxe Room", "price": 380, "capacity": 2, "beds": "1 King" },
+      { "id": "bkk-3-r2", "name": "Park Suite", "price": 720, "capacity": 4, "beds": "2 Queens" }
+    ]
+  },
+  {
+    "id": "bkk-4",
+    "name": "Capella Bangkok",
+    "location": "Bangkok, Thailand",
+    "rating": 4.9,
+    "stars": 5,
+    "propertyType": "Luxury Hotel",
+    "distanceFromCenter": "2.1 km",
+    "freeCancellation": false,
+    "breakfastIncluded": true,
+    "popularityScore": 97,
+    "reviewsCount": 450,
+    "pricePerNight": 650,
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Private Pool Villas", "Spa", "Fitness Center", "Free WiFi", "Private Dining", "Yacht Charter"],
+    "description": "An exclusive collection of riverside villas offering ultimate privacy and bespoke luxury experiences.",
+    "reviews": [
+      { "id": "rev-7", "author": "Robert Taylor", "rating": "5", "comment": "The most private and luxurious stay I've ever experienced.", "date": "2023-11-20" },
+      { "id": "rev-8", "author": "Lisa Wang", "rating": "5", "comment": "Impeccable attention to detail. A true hidden gem.", "date": "2023-12-05" }
+    ],
+    "rooms": [
+      { "id": "bkk-4-r1", "name": "Riverside Villa", "price": 650, "capacity": 2, "beds": "1 King" },
+      { "id": "bkk-4-r2", "name": "Grand Riverside Villa", "price": 1200, "capacity": 6, "beds": "3 Kings" }
+    ]
+  },
+  {
+    "id": "bkk-5",
+    "name": "Rosewood Bangkok",
+    "location": "Bangkok, Thailand",
+    "rating": 4.8,
+    "stars": 5,
+    "propertyType": "Luxury Hotel",
+    "distanceFromCenter": "1.2 km",
+    "freeCancellation": true,
+    "breakfastIncluded": false,
+    "popularityScore": 94,
+    "reviewsCount": 670,
+    "pricePerNight": 480,
+    "images": [
+      "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Pool", "Spa", "Fitness Center", "Free WiFi", "Michelin Restaurant", "Kids Club"],
+    "description": "A sophisticated urban sanctuary featuring contemporary design, exceptional dining, and personalized service.",
+    "reviews": [
+      { "id": "rev-9", "author": "Thomas Anderson", "rating": "5", "comment": "Modern luxury with a warm Thai welcome. Loved the dining options.", "date": "2023-10-18" },
+      { "id": "rev-10", "author": "Sophie Martin", "rating": "4", "comment": "Beautiful architecture and very comfortable beds.", "date": "2023-11-02" }
+    ],
+    "rooms": [
+      { "id": "bkk-5-r1", "name": "Deluxe Room", "price": 480, "capacity": 2, "beds": "1 King" },
+      { "id": "bkk-5-r2", "name": "Grand Deluxe Suite", "price": 890, "capacity": 3, "beds": "1 King + 1 Single" }
+    ]
+  },
+  {
+    "id": "bal-1",
+    "name": "Four Seasons Resort Bali at Sayan",
+    "location": "Ubud, Bali, Indonesia",
+    "rating": 4.9,
+    "stars": 5,
+    "propertyType": "Luxury Resort",
+    "distanceFromCenter": "5.0 km",
+    "freeCancellation": true,
+    "breakfastIncluded": true,
+    "popularityScore": 99,
+    "reviewsCount": 3200,
+    "pricePerNight": 750,
+    "images": [
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Infinity Pool", "Spa", "Yoga Pavilion", "Free WiFi", "Fine Dining", "Cultural Activities"],
+    "description": "Nestled in the lush Ayung River valley, offering an immersive Balinese experience with world-class amenities.",
+    "reviews": [
+      { "id": "rev-11", "author": "John Doe", "rating": "5", "comment": "Paradise on earth. The jungle views from the villa are breathtaking.", "date": "2023-12-10" },
+      { "id": "rev-12", "author": "Jane Smith", "rating": "5", "comment": "The staff went above and beyond. Truly a magical stay.", "date": "2023-11-25" }
+    ],
+    "rooms": [
+      { "id": "bal-1-r1", "name": "Deluxe Villa", "price": 750, "capacity": 2, "beds": "1 King" },
+      { "id": "bal-1-r2", "name": "One-Bedroom Pool Villa", "price": 1100, "capacity": 3, "beds": "1 King + Sofa Bed" }
+    ]
+  },
+  {
+    "id": "bal-2",
+    "name": "Amanpuri",
+    "location": "Seminyak, Bali, Indonesia",
+    "rating": 4.8,
+    "stars": 5,
+    "propertyType": "Luxury Resort",
+    "distanceFromCenter": "0.5 km",
+    "freeCancellation": false,
+    "breakfastIncluded": true,
+    "popularityScore": 96,
+    "reviewsCount": 1800,
+    "pricePerNight": 900,
+    "images": [
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1573843981267-be1999ff3e5c?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Private Beach", "Pool", "Spa", "Fitness Center", "Free WiFi", "Water Sports"],
+    "description": "A serene beachfront retreat inspired by traditional Balinese pavilions, offering ultimate relaxation and privacy.",
+    "reviews": [
+      { "id": "rev-13", "author": "Mark Johnson", "rating": "5", "comment": "The epitome of luxury. The beachfront pavilions are stunning.", "date": "2023-10-30" },
+      { "id": "rev-14", "author": "Emma Wilson", "rating": "5", "comment": "Incredible service and beautiful grounds. Highly recommended.", "date": "2023-09-12" }
+    ],
+    "rooms": [
+      { "id": "bal-2-r1", "name": "Pavilion", "price": 900, "capacity": 2, "beds": "1 King" },
+      { "id": "bal-2-r2", "name": "Pool Pavilion", "price": 1400, "capacity": 4, "beds": "2 Kings" }
+    ]
+  },
+  {
+    "id": "bal-3",
+    "name": "Alila Villas Uluwatu",
+    "location": "Uluwatu, Bali, Indonesia",
+    "rating": 4.7,
+    "stars": 5,
+    "propertyType": "Luxury Resort",
+    "distanceFromCenter": "8.0 km",
+    "freeCancellation": true,
+    "breakfastIncluded": false,
+    "popularityScore": 93,
+    "reviewsCount": 950,
+    "pricePerNight": 680,
+    "images": [
+      "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Infinity Pool", "Spa", "Fitness Center", "Free WiFi", "Restaurant", "Surf Lessons"],
+    "description": "Perched on dramatic limestone cliffs, offering contemporary design and breathtaking ocean views.",
+    "reviews": [
+      { "id": "rev-15", "author": "Chris Evans", "rating": "5", "comment": "The cliffside views are unreal. Perfect for a romantic getaway.", "date": "2023-11-08" },
+      { "id": "rev-16", "author": "Rachel Green", "rating": "4", "comment": "Beautiful villas and great location for surfing.", "date": "2023-10-15" }
+    ],
+    "rooms": [
+      { "id": "bal-3-r1", "name": "Pool Villa", "price": 680, "capacity": 2, "beds": "1 King" },
+      { "id": "bal-3-r2", "name": "Two-Bedroom Pool Villa", "price": 1250, "capacity": 4, "beds": "2 Kings" }
+    ]
+  },
+  {
+    "id": "bal-4",
+    "name": "Bulgari Resort Bali",
+    "location": "Uluwatu, Bali, Indonesia",
+    "rating": 4.8,
+    "stars": 5,
+    "propertyType": "Luxury Resort",
+    "distanceFromCenter": "7.5 km",
+    "freeCancellation": true,
+    "breakfastIncluded": true,
+    "popularityScore": 95,
+    "reviewsCount": 1100,
+    "pricePerNight": 850,
+    "images": [
+      "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Private Beach", "Pool", "Spa", "Fitness Center", "Free WiFi", "Italian Restaurant"],
+    "description": "A stunning cliff-top retreat blending Italian elegance with Balinese culture, featuring a private beach access.",
+    "reviews": [
+      { "id": "rev-17", "author": "Luca Rossi", "rating": "5", "comment": "Italian luxury meets Balinese charm. The food is exceptional.", "date": "2023-12-02" },
+      { "id": "rev-18", "author": "Olivia Brown", "rating": "5", "comment": "Absolutely breathtaking views and impeccable service.", "date": "2023-11-18" }
+    ],
+    "rooms": [
+      { "id": "bal-4-r1", "name": "Cliff Top Villa", "price": 850, "capacity": 2, "beds": "1 King" },
+      { "id": "bal-4-r2", "name": "Ocean Front Villa", "price": 1350, "capacity": 4, "beds": "2 Kings" }
+    ]
+  },
+  {
+    "id": "bal-5",
+    "name": "Capella Ubud",
+    "location": "Ubud, Bali, Indonesia",
+    "rating": 4.9,
+    "stars": 5,
+    "propertyType": "Luxury Resort",
+    "distanceFromCenter": "6.0 km",
+    "freeCancellation": false,
+    "breakfastIncluded": true,
+    "popularityScore": 98,
+    "reviewsCount": 520,
+    "pricePerNight": 1100,
+    "images": [
+      "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Private Pool Tents", "Spa", "Fitness Center", "Free WiFi", "Private Dining", "Cultural Tours"],
+    "description": "An exclusive glamping-inspired retreat set in a lush jungle valley, offering unparalleled luxury and privacy.",
+    "reviews": [
+      { "id": "rev-19", "author": "Daniel Park", "rating": "5", "comment": "The most unique and luxurious experience. The tents are stunning.", "date": "2023-10-25" },
+      { "id": "rev-20", "author": "Mia Thompson", "rating": "5", "comment": "Impeccable service and breathtaking jungle surroundings.", "date": "2023-11-30" }
+    ],
+    "rooms": [
+      { "id": "bal-5-r1", "name": "Luxury Tent", "price": 1100, "capacity": 2, "beds": "1 King" },
+      { "id": "bal-5-r2", "name": "Grand Luxury Tent", "price": 1800, "capacity": 4, "beds": "2 Kings" }
+    ]
+  }
+]
